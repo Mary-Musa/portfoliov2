@@ -162,6 +162,7 @@ a{
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
     padding: 2rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -210,6 +211,157 @@ a{
     background-color: #029ad1;
     color: white
 }
+
+.technologies{
+    background-color: #021623;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    font-weight:bold;
+}
+
+.tools{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    margin-top: 3em;
+ 
+}
+.frontend{
+    background-color:white;
+    padding: 8rem;
+    border-radius: 1em;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: all 0.3s ease;;
+}
+
+.frontend:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    border: 1px solid #0c1217;
+}
+
+
+.backend{
+    background-color:white;
+    padding: 8rem;
+    border-radius: 1em;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: all 0.3s ease;;
+}
+
+.backend:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    border: 1px solid #0c1217;
+}
+
+.frontend i{
+    font-size: 2.5rem;
+    color: #04314d;
+    margin-bottom: 1rem;
+}
+
+.frontend h3{
+    font-size: 1.2rem;
+    margin-bottom: 0.9rem;
+}
+.frontend p{
+    font-size: 0.95rem;
+    color: #555;
+}
+
+
+.backend i{
+    font-size: 2.5rem;
+    color: #04314d;
+    margin-bottom: 1rem;
+}
+
+.backend h3{
+    font-size: 1.2rem;
+    margin-bottom: 0.9rem;
+}
+.backend p{
+    font-size: 0.95rem;
+    color: #555;
+}
+.skills{
+    margin-bottom: 3rem;
+}
+
+
+
+.contact {
+    background-color: #021623;
+    color: white;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.contact form {
+    background-color: #0a1f2e;
+    padding: 2rem;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 0.95rem;
+}
+
+.contact label {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.contact button {
+    width: 100%;
+    padding: 0.9rem;
+    background-color:rgb(8, 155, 224);
+    border: none;
+    border-radius: 8px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact button:hover {
+    background-color: #1c09f3;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    border: 1px solid #0a0de3;
+}
+.form h2{
+    margin-top: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
