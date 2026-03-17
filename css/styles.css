@@ -3,6 +3,7 @@
     margin: 0;
     font-size: 1rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 
 .nav{
@@ -149,19 +150,66 @@ a{
 
 .btn-primary:hover{
 
-    background-color: rgb(41, 41, 146);
+    background-color: #029ad1;
 }
 
 .about-image{
     margin-bottom: 2em;
 }
 
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
 
 
+.card{
+    background-color:white;
+    padding: 3rem;
+    border-radius: 1em;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: all 0.3s ease;
+}
 
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    border: 1px solid #0c1217;
+    
+}
 
+.card i{
+    font-size: 2.5rem;
+    color: #04314d;
+    margin-bottom: 1rem;
+}
 
+.card h2{
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+.card p{
+    font-size: 0.95rem;
+    color: #555;
+}
 
+.cta{
+    background-color:rgb(1, 1, 9);
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 2rem;
+    
+}
+
+.cta:hover {
+    background-color: #029ad1;
+    color: white
+}
 
 
 
